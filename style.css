@@ -1,0 +1,246 @@
+header::before {
+    content: "";
+    background: url("img/bird.webp") no-repeat center center/cover;
+    position: absolute;
+    /* background: url("../img/bird.webp") no-repeat center center/cover; */
+    top: 0%;
+    left: 0%; 
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1; 
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+.class1 {
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.class2 {
+
+    margin: 29px 90px;
+    padding: 0px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.class3 {
+
+    display: inline-block;
+    /* float: right; */
+    position: absolute;
+    top: 4px;
+    right: 12px;
+
+
+}
+
+.class2 li {
+    display: inline-block;
+    margin: 0px 54px;
+    color: white;
+
+
+}
+
+.class2 ul {
+
+    margin: 0px 10px;
+
+}
+
+.class2 li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+
+}
+
+.class2 li a:hover {
+    color: aquamarine;
+    text-decoration: underline;
+   
+}
+
+.class1 img {
+    width: 78px;
+    height: 65px;
+}
+
+.class1 div {
+    width: 75%;
+    margin: auto;
+    color: white;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    margin: 0px 7px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid rgb(245, 237, 237);
+}
+
+#top-btn1{
+    margin-top: 29px;
+}
+#top-btn2{
+    margin-top: 29px;
+}
+.btn:hover{
+    border-color: aquamarine;
+}
+form {
+    display: block;
+    width: 29%;
+    margin: auto;
+    box-shadow: white;
+    /* box-shadow: px 10px 9px rgb(56 61 56); */
+    height: 420px;
+}
+
+.input {
+    margin-bottom: 30PX;
+    border-radius: 5px;
+    border: 1px solid rgb(245, 237, 237);
+    background-color: black;
+    color: white;
+}
+
+form div {
+    font-size: 20px;
+    color: white;
+}
+
+label {
+    
+    margin-left: 0px;
+    font-size: 18px;
+    color: white;
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 58px;
+    font-family: 'Baloo Bhai 2';
+    /* box-shadow: 10px 12px 5px rgb(58, 141, 58); */
+}
+#foot a {
+    padding: 25px 0px;
+    color: white;
+
+}
+
+#foot {
+    height: 418px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    justify-items: center;
+    margin: -8px;
+
+}
+
+#foot a:hover {
+    font-size: large;
+    color: bisque;
+.footer {
+  width: 100%;
+  background-color: black;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.footer .col h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 17px;
+  padding: 10px 0;
+  color: #FF0063;
+  text-transform: uppercase;
+}
+.footer .col ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer .col ul li {
+  color: white;
+  font-size: 12px;
+  padding: 5px 0px;
+}
+.address ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+  cursor: pointer;
+  color: lightgray;
+  font-weight: bold;
+}
+.clearfix {
+  clear: both;
+}
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .address {
+    width: 1000px;
+    display: block;
+  }
+  .address h2 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h2 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+    .footer .col {
+      width: 50%;
+    }
+    .footer .col h2 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+}
